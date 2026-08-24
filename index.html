@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ruta práctica para entender Azure y los fundamentos de la nube desde cero.">
+  <meta name="theme-color" content="#0d1117">
+  <title>Azure desde cero | Introducción a la nube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="module-details.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Azure desde cero, inicio">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>AZURE<br><em>DESDE CERO</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#ruta">La ruta</a>
+      <a href="#modulos">Módulos</a>
+      <a href="#recursos">Recursos</a>
+    </nav>
+    <a class="header-cta" href="#ruta">Comenzar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> CURSO FUNDAMENTAL / 2026</p>
+        <h1>La nube deja de ser abstracta cuando <span>la haces tuya.</span></h1>
+        <p class="hero-lede">Una introducción práctica a Azure para entender cómo se construyen, administran y escalan servicios en la nube.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#ruta">Ver la ruta <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#modulos">Explorar módulos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>05</strong><span>módulos</span></div>
+          <div><strong>4 h</strong><span>de contenido</span></div>
+          <div><strong>01</strong><span>proyecto final</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="cloud-visual" aria-label="Ilustración abstracta de una arquitectura cloud">
+          <div class="cloud-core"><span class="cloud-icon">☁</span><small>AZURE</small></div>
+          <div class="node node-one"><b>01</b><span>compute</span></div>
+          <div class="node node-two"><b>02</b><span>data</span></div>
+          <div class="node node-three"><b>03</b><span>web apps</span></div>
+          <div class="connection connection-one"></div><div class="connection connection-two"></div><div class="connection connection-three"></div>
+        </div>
+        <p class="visual-caption">Una vista general del ecosistema que vas a aprender a leer.</p>
+      </div>
+    </section>
+
+    <section class="manifesto" id="ruta">
+      <div class="section-kicker">00 / EL ENFOQUE</div>
+      <div class="manifesto-grid">
+        <h2>Primero entiendes el mapa. Después, <span>construyes.</span></h2>
+        <div class="manifesto-copy"><p>Este curso sigue el orden natural de una buena conversación técnica: qué es la nube, qué resuelve Azure y qué piezas necesitas para poner una idea en producción.</p><a class="text-link" href="#modulos">Conocer los módulos <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="modules-section" id="modulos">
+      <div class="section-heading"><div><div class="section-kicker">01 / EL RECORRIDO</div><h2>Cinco módulos.<br><span>Una base sólida.</span></h2></div><p>De los conceptos esenciales a tu primera arquitectura web en Azure. Sin saltos, sin ruido.</p></div>
+      <div class="module-list">
+        <article class="module-card module-featured"><div class="module-number">01</div><div class="module-icon">↗</div><div class="module-body"><h3>Introducción a Azure</h3><p>Conoce la plataforma, sus regiones, cuentas y el modelo de responsabilidad compartida.</p><div class="module-tags"><span>fundamentos</span><span>15 min</span></div></div><button class="module-action" aria-label="Marcar módulo 1 como completado" data-module="1">○</button></article>
+        <article class="module-card"><div class="module-number">02</div><div class="module-icon">◌</div><div class="module-body"><h3>Introducción a la nube</h3><p>Entiende IaaS, PaaS y SaaS, el consumo bajo demanda y por qué importa la elasticidad.</p><div class="module-tags"><span>conceptos</span><span>35 min</span></div></div><button class="module-action" aria-label="Marcar módulo 2 como completado" data-module="2">○</button></article>
+        <article class="module-card"><div class="module-number">03</div><div class="module-icon">⌘</div><div class="module-body"><h3>Herramientas esenciales</h3><p>Trabaja con Azure Portal, Cloud Shell, CLI, PowerShell y Visual Studio Code.</p><div class="module-tags"><span>herramientas</span><span>45 min</span></div></div><button class="module-action" aria-label="Marcar módulo 3 como completado" data-module="3">○</button></article>
+        <article class="module-card"><div class="module-number">04</div><div class="module-icon">＋</div><div class="module-body"><h3>Componentes esenciales</h3><p>Relaciona recursos, grupos, redes, almacenamiento, identidad y observabilidad.</p><div class="module-tags"><span>arquitectura</span><span>60 min</span></div></div><button class="module-action" aria-label="Marcar módulo 4 como completado" data-module="4">○</button></article>
+        <article class="module-card"><div class="module-number">05</div><div class="module-icon">▱</div><div class="module-body"><h3>Aplicaciones y páginas web</h3><p>Publica una aplicación, conecta sus servicios y dale una dirección lista para compartir.</p><div class="module-tags"><span>proyecto</span><span>85 min</span></div></div><button class="module-action" aria-label="Marcar módulo 5 como completado" data-module="5">○</button></article>
+      </div>
+    </section>
+
+    <section class="progress-section" id="recursos">
+      <div class="progress-copy"><div class="section-kicker">02 / TU PROGRESO</div><h2>Aprender nube es <span>conectar puntos.</span></h2><p>Marca cada módulo a medida que avances. Tu recorrido se guarda en este dispositivo.</p></div>
+      <div class="progress-panel"><div class="progress-top"><span>RUTA DE APRENDIZAJE</span><strong id="progress-label">0 / 5 completados</strong></div><div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div><div class="progress-bottom"><span id="progress-message">El primer punto siempre es el más importante.</span><span id="progress-percent">0%</span></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="brand footer-brand"><span class="brand-mark"><span></span><span></span><span></span></span><span>AZURE<br><em>DESDE CERO</em></span></div><p>Una ruta clara para empezar a construir en la nube.</p><span class="footer-note">INTRODUCCIÓN A LA NUBE / 01</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
